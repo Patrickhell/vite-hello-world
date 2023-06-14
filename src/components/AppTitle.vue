@@ -1,9 +1,19 @@
 <script>
+export default{
+    data(){
+        return{
+            message: " La mia prima app con Vite!"
+        }
+    },
+    mounted(){
+
+    }
+}
 </script>
 
 <template>
 <h1>
-    La mia prima app con Vite!
+   {{ message }}
 </h1>
 </template>
 
